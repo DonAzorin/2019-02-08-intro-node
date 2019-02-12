@@ -1,7 +1,7 @@
 module.exports = {
     historia: function(muerte) {
-        if (muerte = 1) {
-			muerte= 'sonriente'
+        if (muerte == 1) {
+			muerte = 'sonriente'
 		} else {
 			muerte = 'fría'
         } 

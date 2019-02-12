@@ -1,18 +1,18 @@
 module.exports = {
     historia: function(edad, clima, lugaramor) {
-        if (edad = 1) {
+        if (edad == 1) {
 			edad = 'El joven'
 		} else {
 			edad = 'Don'
         }
         
-        if (clima = 1) {
+        if (clima == 1) {
             clima = 'noche'
         } else {
             clima = 'tarde'
         }
         
-        if (lugaramor = 1) {
+        if (lugaramor == 1) {
             lugaramor = 'calle'
         } else {
             lugaramor = 'finca'

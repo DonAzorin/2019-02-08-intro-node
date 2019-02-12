@@ -15,7 +15,7 @@ const muerte = Math.floor(Math.random() * 3);
 
 const vacaHablando = "Esta fue su anfitriona, la vaquita de las leyendas desándoles una buena noche";
 
-let historia = "Que tal, mi nombre es " + prota + ". Anoche una vaca parlante me dijo " + vacaHablando + " y me sentí de la patada...";
+//let historia = "Que tal, mi nombre es " + prota + ". Anoche una vaca parlante me dijo " + vacaHablando + " y me sentí de la patada...";
 
 console.log(intro.historia(lugar, edad, familia, clima, blanco, respuesta));
 console.log(nudo.historia(edad, clima,lugaramor))

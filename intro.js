@@ -1,36 +1,36 @@
 module.exports = {
 	historia: function(lugar, edad, familia, clima, blanco, respuesta) {
-		if (lugar = 1) {
+		if (lugar == 1) {
 			lugar= 'la Nueva España'
 		} else {
 			lugar = 'una villa andaluza'
 		}
 
-		if (edad = 1) {
+		if (edad == 1) {
 			edad = 'El joven'
 		} else {
 			edad = 'Don'
 		}
 		
-		if (familia = 1) {
+		if (familia == 1) {
 			familia = 'la opinión de sus padres'
 		} else {
 			familia = 'su matrimonio'
 		}
 		
-		if (clima = 1) {
+		if (clima == 1) {
 			clima = 'noche'
 		} else {
 			clima = 'tarde'
 		}
 		
-		if (blanco = 1) {
+		if (blanco == 1) {
 			blanco = 'la nieve fría'
 		} else {
 			blanco = 'el mármol frío'
 		}
 		
-		if (respuesta = 1) {
+		if (respuesta == 1) {
 			respuesta = 'dulcemente'
 		} else {
 			respuesta = 'sin emoción alguna'
