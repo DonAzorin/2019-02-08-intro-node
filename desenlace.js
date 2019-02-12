@@ -1,5 +1,30 @@
 module.exports = {
-    historia: function() {
-        return `Como ${prota} era bien obediente, le dijo que ${obedece} y entonces ${maldito} le entregó un billete de 500$ aun sabiendo que cada elotito costaba 20 oesitos`
+    historia: function(lugar, edad, familia, clima, blanco, respuesta) {
+        if (lugar = 1) {
+			lugar= 'la Nueva España'
+		} else {
+			lugar = 'una villa andaluza'
+		} else if (edad = 1) {
+			edad = 'El joven'
+		} else {
+			edad = 'Don'
+		} else if (familia = 1) {
+			familia = 'la opinión de sus padres'
+		} else {
+			familia = 'su matrimonio'
+		} else if (clima = 1) {
+			clima = 'noche'
+		} else {
+			clima = 'tarde'
+		} else if (blanco = 1) {
+			blanco = 'la nieve fría'
+		} else {
+			blanco = 'el mármol frío'
+		} else if (respuesta = 1) {
+			respuesta = 'dulcemente'
+		} else {
+			respuesta = 'sin emoción alguna'
+		}
+		return
     }
 }

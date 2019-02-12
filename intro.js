@@ -1,11 +1,11 @@
 module.exports = {
-	historia: function(lugar, edad familia, clima, blanco, respuesta, lugaramor, muerte) {
+	historia: function(lugar, edad, familia, clima, blanco, respuesta) {
 		if (lugar = 1) {
-			lugar= 'Nueva España'
+			lugar= 'la Nueva España'
 		} else {
 			lugar = 'una villa andaluza'
 		} else if (edad = 1) {
-			edad = 'joven'
+			edad = 'El joven'
 		} else {
 			edad = 'Don'
 		} else if (familia = 1) {
@@ -25,7 +25,9 @@ module.exports = {
 		} else {
 			respuesta = 'sin emoción alguna'
 		}
-		return ``
+		return `Ya nadie se acuerda cuándo pasó... Pero si saben que fue en ${lugar}. ${edad} Javier era apuesto y libre, con un corazón dispuesto a albergar los sentimientos de varias doncellas, sin importarle ${familia}.
+
+		En una ${clima}, ${edad} Javier tuvo un sueño maravilloso: soñaba con sus amores y que los tenía en sus brazos. Luego vio entrar a una jovencita de piel blanca, más que ${blanco}. ${edad} Javier le preguntó dulcemente: ¿Por dónde has entrado mi amor, cómo has entrado mi vida? Si las puertas y ventanas están cerradas. A lo que ella respondió ${respuesta}: No soy el amor, amante. Soy la muerte que Dios te envía.`
 	}
 }
 
