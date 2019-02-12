@@ -4,23 +4,33 @@ module.exports = {
 			lugar= 'la Nueva España'
 		} else {
 			lugar = 'una villa andaluza'
-		} else if (edad = 1) {
+		}
+
+		if (edad = 1) {
 			edad = 'El joven'
 		} else {
 			edad = 'Don'
-		} else if (familia = 1) {
+		}
+		
+		if (familia = 1) {
 			familia = 'la opinión de sus padres'
 		} else {
 			familia = 'su matrimonio'
-		} else if (clima = 1) {
+		}
+		
+		if (clima = 1) {
 			clima = 'noche'
 		} else {
 			clima = 'tarde'
-		} else if (blanco = 1) {
+		}
+		
+		if (blanco = 1) {
 			blanco = 'la nieve fría'
 		} else {
 			blanco = 'el mármol frío'
-		} else if (respuesta = 1) {
+		}
+		
+		if (respuesta = 1) {
 			respuesta = 'dulcemente'
 		} else {
 			respuesta = 'sin emoción alguna'

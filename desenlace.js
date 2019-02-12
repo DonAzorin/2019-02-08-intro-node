@@ -1,30 +1,11 @@
 module.exports = {
-    historia: function(lugar, edad, familia, clima, blanco, respuesta) {
-        if (lugar = 1) {
-			lugar= 'la Nueva España'
+    historia: function(muerte) {
+        if (muerte = 1) {
+			muerte= 'sonriente'
 		} else {
-			lugar = 'una villa andaluza'
-		} else if (edad = 1) {
-			edad = 'El joven'
-		} else {
-			edad = 'Don'
-		} else if (familia = 1) {
-			familia = 'la opinión de sus padres'
-		} else {
-			familia = 'su matrimonio'
-		} else if (clima = 1) {
-			clima = 'noche'
-		} else {
-			clima = 'tarde'
-		} else if (blanco = 1) {
-			blanco = 'la nieve fría'
-		} else {
-			blanco = 'el mármol frío'
-		} else if (respuesta = 1) {
-			respuesta = 'dulcemente'
-		} else {
-			respuesta = 'sin emoción alguna'
-		}
-		return
+			muerte = 'fría'
+        } 
+        
+		return `Pero se rompió el cordón de seda y ahí se acercaba la muerte y le dijo ${muerte}: vamos, enamorado. Ya se cumplió tu hora.`
     }
 }

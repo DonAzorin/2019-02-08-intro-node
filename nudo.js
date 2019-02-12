@@ -4,11 +4,15 @@ module.exports = {
 			edad = 'El joven'
 		} else {
 			edad = 'Don'
-        } else if (clima = 1) {
+        }
+        
+        if (clima = 1) {
             clima = 'noche'
         } else {
             clima = 'tarde'
-        } else if (lugaramor = 1) {
+        }
+        
+        if (lugaramor = 1) {
             lugaramor = 'calle'
         } else {
             lugaramor = 'finca'
