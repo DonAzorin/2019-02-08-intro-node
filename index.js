@@ -3,14 +3,14 @@ const intro = require('./intro');
 const nudo = require('./nudo.js');
 const desenlace = require('./desenlace.js');
 
-const lugar = Math.floor(Math.random() * 3);
+const lugar = Math.floor(Math.random() * 2);
 const edad = Math.floor(Math.random() * 100);
-const familia = Math.floor(Math.random() * 3);
-const clima = Math.floor(Math.random() * 3);
-const blanco = Math.floor(Math.random() * 3);
-const respuesta = Math.floor(Math.random() * 3);
-const lugaramor = Math.floor(Math.random() * 3);
-const muerte = Math.floor(Math.random() * 3);
+const familia = Math.floor(Math.random() * 2);
+const clima = Math.floor(Math.random() * 2);
+const blanco = Math.floor(Math.random() * 2);
+const respuesta = Math.floor(Math.random() * 2);
+const lugaramor = Math.floor(Math.random() * 2);
+const muerte = Math.floor(Math.random() * 2);
 
 
 const vacaHablando = "Esta fue su anfitriona, la vaquita de las leyendas desándoles una buena noche";
